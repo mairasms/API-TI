@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diretórios de build / cache
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Ambiente (nunca versionar senhas)
+.env
+.env.*.local
+
+# Diretórios temporários
+tmp/
+temp/
+*.tmp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ferramentas IDE
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de lock alternativos
+package-lock.json
+# (Opcional: normalmente você mantém package-lock.json; só ignore se não quiser versionar)
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Arquivos de servidor
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Arquivos gerados por funções serverless
+.netlify/
+.vercel/
+
