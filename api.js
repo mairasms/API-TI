@@ -94,6 +94,18 @@ app.get('/status', (req, res) => {
     versao: '1.0.1'
   });
 });
-
+// Rota raiz
+app.get('/', (req, res) => {
+  res.json({ 
+    mensagem: 'Bem-vindo à API de Termos de TI!',
+    endpoints: {
+      status: '/status',
+      todosTermos: '/termos', 
+      buscar: '/buscar/:termo',
+      detalhes: '/termo/:palavra'
+    },
+    repositorio: 'https://github.com/mairasms/API-TI'
+  });
+});
 // Inicializa o servidor
 app.listen(PORT, () => console.log(`🚀 Servidor rodando na porta ${PORT}`));
