@@ -1,43 +1,98 @@
 // Importa o Express
 import express from 'express';
+import cors from 'cors';
+import fs from 'fs';
+import path from 'path';
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-// Permite receber JSON no body
 app.use(express.json());
+app.use(cors());
 
-// Base de dados mock (você pode substituir por JSON externo ou banco depois)
-const termos = [
-  {
-    id: 1,
-    termo: "API",
-    basico: "Interface que permite comunicação entre sistemas.",
-    historia: "O conceito de API existe desde os primeiros sistemas operacionais, mas ganhou força com a web e REST.",
-  },
-  {
-    id: 2,
-    termo: "REST",
-    basico: "Estilo arquitetural para comunicação entre sistemas usando HTTP.",
-    historia: "Definido por Roy Fielding em 2000 em sua tese, é amplamente utilizado em APIs modernas.",
-  },
-];
+const caminhoDados = path.join(process.cwd(), 'data', 'termos.json');
+
+// Função para carregar termos
+function carregarTermos() {
+  try {
+    if (!fs.existsSync(caminhoDados)) {
+      console.error('Arquivo termos.json não encontrado!');
+      return [];
+    }
+    
+    const dados = fs.readFileSync(caminhoDados, 'utf8');
+    if (!dados.trim()) return [];
+    
+    const parsed = JSON.parse(dados);
+    return parsed.termos || [];
+    
+  } catch (erro) {
+    console.error('Erro ao carregar termos:', erro.message);
+    return [];
+  }
+}
+
+// 🔽 ROTAS ATUALIZADAS 🔽
 
 // Rota para listar todos os termos (apenas resumo)
 app.get('/termos', (req, res) => {
-  // Retorna só as informações básicas
-  const resumo = termos.map(({ id, termo, basico }) => ({ id, termo, basico }));
+  const termos = carregarTermos();
+  const resumo = termos.map(termo => ({
+    word: termo.word,
+    category: termo.category,
+    definition: termo.meanings[0]?.definition || 'Definição não disponível'
+  }));
   res.json(resumo);
 });
 
-// Rota para retornar detalhes de um termo específico
-app.get('/termos/:id', (req, res) => {
-  const id = parseInt(req.params.id);
-  const termo = termos.find(t => t.id === id);
+// Rota para buscar termo por nome
+app.get('/buscar/:termo', (req, res) => {
+  const termos = carregarTermos();
+  const termoBuscado = req.params.termo.toLowerCase();
+  
+  const resultado = termos.filter(t => 
+    t.word.toLowerCase().includes(termoBuscado) ||
+    t.category.toLowerCase().includes(termoBuscado) ||
+    t.meanings[0]?.definition.toLowerCase().includes(termoBuscado)
+  );
+  
+  if (resultado.length === 0) {
+    return res.status(404).json({ erro: "Nenhum termo encontrado" });
+  }
+  
+  // Retorna só informações básicas na busca
+  const resumo = resultado.map(termo => ({
+    word: termo.word,
+    category: termo.category,
+    definition: termo.meanings[0]?.definition || 'Definição não disponível'
+  }));
+  
+  res.json(resumo);
+});
+
+// Rota para retornar detalhes COMPLETOS de um termo específico
+app.get('/termo/:palavra', (req, res) => {
+  const termos = carregarTermos();
+  const palavra = req.params.palavra.toLowerCase();
+  
+  const termo = termos.find(t => t.word.toLowerCase() === palavra);
+  
   if (!termo) {
     return res.status(404).json({ erro: "Termo não encontrado" });
   }
-  res.json(termo); // retorna tudo (incluindo história)
+  
+  // Retorna TODAS as informações (incluindo história)
+  res.json(termo);
+});
+
+// Rota de saúde da API
+app.get('/status', (req, res) => {
+  const termos = carregarTermos();
+  res.json({ 
+    status: 'online', 
+    totalTermos: termos.length,
+    versao: '1.0.1'
+  });
 });
 
 // Inicializa o servidor

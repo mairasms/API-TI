@@ -1,0 +1,52 @@
+{
+  "termos": [
+    {
+      "word": "Algoritmo",
+      "category": "TI",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "definition": "Conjunto de instruções ou regras para resolver um problema ou realizar uma tarefa.",
+          "source": "https://www.tjac.jus.br/wp-content/uploads/2024/07/Glossario-de-Termos-Tecnicos-da-TI.pdf",
+          "historia": ""
+        }
+      ]
+    },
+    {
+      "word": "API",
+      "category": "Sigla", 
+      "meanings": [
+        {
+          "partOfSpeech": "Interface de Programação de Aplicações",
+          "definition": "Conjunto de regras e ferramentas que permite a diferentes programas se comunicarem entre si.",
+          "source": "https://www.tjac.jus.br/wp-content/uploads/2024/07/Glossario-de-Termos-Tecnicos-da-TI.pdf",
+          "historia": "O conceito de API existe desde os primeiros sistemas operacionais, mas ganhou força com a web e REST."
+        }
+      ]
+    },
+    {
+      "word": "TI",
+      "category": "TI",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "definition": "TI ou Tecnologia da Informação pode se referir a qualquer tipo de tecnologia para processar informações...",
+          "source": "",
+          "historia": ""
+        }
+      ]
+    },
+    {
+      "word": "JavaScript",
+      "category": "Tecnologia",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "definition": "Linguagem de programação amplamente utilizada para criar interatividade em páginas web.",
+          "source": "https://prandit.ru/glossary/#app",
+          "historia": ""
+        }
+      ]
+    }
+  ]
+}
