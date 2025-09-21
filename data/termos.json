@@ -7,8 +7,8 @@
         {
           "partOfSpeech": "",
           "definition": "Conjunto de instruções ou regras para resolver um problema ou realizar uma tarefa.",
-          "source": "https://www.tjac.jus.br/wp-content/uploads/2024/07/Glossario-de-Termos-Tecnicos-da-TI.pdf",
-          "historia": ""
+          "source": "https://www.academia.edu/download/59095976/Historia_del_algoritmo20190430-88248-1x17f9t.pdf",
+          "historia": "Os algoritmos existem desde a antiguidade, quando povos como os babilônios e egípcios já usavam métodos para cálculos matemáticos.O termo “algoritmo” vem do matemático persa Al-Khwārizmī (séc. IX), que difundiu o sistema de numeração hindu, o conceito do zero e descreveu processos passo a passo para resolver equações.No século XIX, a matemática Ada Lovelace criou o primeiro algoritmo pensado para uma máquina — a “máquina analítica” de Charles Babbage — sendo considerada a primeira programadora da história.No início do século XX, questões levantadas por Hilbert e o Teorema da Incompletude de Gödel levaram à formalização dos algoritmos por Alan Turing, Alonzo Church e outros, dando origem à computação moderna.Com o avanço da tecnologia, os anos 1950–60 marcaram o surgimento de linguagens de programação e sistemas operacionais. Já nos anos 1980, com Paul Benioff e Richard Feynman, nasceu a ideia da computação quântica, seguida por algoritmos inovadores de pesquisadores como Peter Shor e Lov Grover. Hoje, os algoritmos estão em todos os aspectos da vida moderna — desde a matemática até a inteligência artificial — sendo fundamentais para o desenvolvimento da sociedade."
         }
       ]
     },
@@ -20,7 +20,7 @@
           "partOfSpeech": "Interface de Programação de Aplicações",
           "definition": "Conjunto de regras e ferramentas que permite a diferentes programas se comunicarem entre si.",
           "source": "https://www.tjac.jus.br/wp-content/uploads/2024/07/Glossario-de-Termos-Tecnicos-da-TI.pdf",
-          "historia": "O conceito de API existe desde os primeiros sistemas operacionais, mas ganhou força com a web e REST."
+          "historia": ""
         }
       ]
     },
@@ -30,7 +30,7 @@
       "meanings": [
         {
           "partOfSpeech": "",
-          "definition": "TI ou Tecnologia da Informação pode se referir a qualquer tipo de tecnologia para processar informações...",
+          "definition": "conjunto de sistemas, hardware, software e práticas que armazenam, processam e transmitem informações numa organização",
           "source": "",
           "historia": ""
         }

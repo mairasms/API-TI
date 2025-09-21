@@ -32,8 +32,6 @@ function carregarTermos() {
   }
 }
 
-// 🔽 ROTAS ATUALIZADAS 🔽
-
 // Rota para listar todos os termos (apenas resumo)
 app.get('/termos', (req, res) => {
   const termos = carregarTermos();
