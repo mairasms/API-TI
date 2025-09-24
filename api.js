@@ -43,22 +43,38 @@ app.get('/termos', (req, res) => {
   res.json(resumo);
 });
 
-// Rota para buscar termo por nome
+// Rota para buscar termo por nome - VERSÃO CORRIGIDA
 app.get('/buscar/:termo', (req, res) => {
   const termos = carregarTermos();
-  const termoBuscado = req.params.termo.toLowerCase();
+  const termoBuscado = req.params.termo.toLowerCase().trim();
   
-  const resultado = termos.filter(t => 
-    t.word.toLowerCase().includes(termoBuscado) ||
-    t.category.toLowerCase().includes(termoBuscado) ||
-    t.meanings[0]?.definition.toLowerCase().includes(termoBuscado)
+  // Busca exata (prioridade máxima)
+  const resultadoExato = termos.filter(t => 
+    t.word.toLowerCase() === termoBuscado
   );
+  
+  // Busca parcial no nome (prioridade média)
+  const resultadoParcialNome = termos.filter(t => 
+    t.word.toLowerCase().includes(termoBuscado) &&
+    t.word.toLowerCase() !== termoBuscado
+  );
+  
+  // Busca na categoria e definição (prioridade baixa)
+  const resultadoOutros = termos.filter(t => 
+    (t.category && t.category.toLowerCase().includes(termoBuscado)) ||
+    t.meanings[0]?.definition.toLowerCase().includes(termoBuscado)
+  ).filter(t => 
+    t.word.toLowerCase() !== termoBuscado &&
+    !resultadoParcialNome.some(item => item.word === t.word)
+  );
+  
+  // Combina resultados mantendo a prioridade
+  const resultado = [...resultadoExato, ...resultadoParcialNome, ...resultadoOutros];
   
   if (resultado.length === 0) {
     return res.status(404).json({ erro: "Nenhum termo encontrado" });
   }
   
-  // Retorna só informações básicas na busca
   const resumo = resultado.map(termo => ({
     word: termo.word,
     category: termo.category,
@@ -92,6 +108,7 @@ app.get('/status', (req, res) => {
     versao: '1.0.1'
   });
 });
+
 // Rota raiz
 app.get('/', (req, res) => {
   res.json({ 
@@ -105,5 +122,6 @@ app.get('/', (req, res) => {
     repositorio: 'https://github.com/mairasms/API-TI'
   });
 });
+
 // Inicializa o servidor
 app.listen(PORT, () => console.log(`🚀 Servidor rodando na porta ${PORT}`));
