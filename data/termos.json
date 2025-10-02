@@ -49,18 +49,30 @@
       ]
     },
     {
-  "word": "IA",
-  "category": "Sigla",
-  "meanings": [
+      "word": "IA",
+      "category": "Sigla",
+      "meanings": [
+        {
+          "partOfSpeech": "Inteligência Artificial",
+          "definition": "Área da ciência da computação que desenvolve algoritmos e modelos capazes de simular processos de inteligência humana, como aprendizado, raciocínio, reconhecimento de padrões e processamento de linguagem natural.",
+          "source": "FIGUEIREDO et al. (2025); SOUZA JÚNIOR & MARTINS (2025); VALE (2025)",
+          "historia": "Inteligência Artificial e Transformações no Conhecimento\n\nA Inteligência Artificial (IA) deixou de ser apenas um conceito futurista e tornou-se protagonista em áreas como ciência, educação e justiça. O avanço de modelos de linguagem, algoritmos de machine learning e técnicas de processamento de linguagem natural (PLN) está remodelando a forma como produzimos conhecimento, aprendemos e aplicamos o direito no Brasil.\n\n🚀 IA na Produção Científica\n\nSegundo Figueiredo et al. (2025), a IA já ocupa espaço importante na escrita de artigos científicos, especialmente na medicina. Ferramentas como o ChatGPT auxiliam em tarefas como:\n\n- geração de rascunhos,\n- revisão gramatical,\n- tradução de textos e\n- análise de dados.\n\nNo entanto, os pesquisadores alertam para riscos como plágio, vieses nos algoritmos e referências falsas. Há também intenso debate ético: → seria legítimo atribuir coautoria a uma IA? Parte da comunidade defende a prática, mas outros apontam que apenas seres humanos podem assumir responsabilidade legal e intelectual pela pesquisa.\n\n📄 FOCO+-+015\n\n🎓 IA na Educação a Distância\n\nNo campo educacional, Souza Júnior e Martins (2025) mostram que a IA está revolucionando o ensino online. Os algoritmos permitem:\n\n- personalização do aprendizado conforme o ritmo de cada aluno,\n- feedback imediato por meio de tutores inteligentes,\n- inclusão de estudantes com necessidades especiais por meio de tecnologias assistivas.\n\nMas há desafios: a privacidade dos dados, o risco de dependência excessiva da tecnologia e a desigualdade de acesso em regiões com pouca infraestrutura digital. Assim, os autores defendem um equilíbrio entre inovação tecnológica e o papel insubstituível da interação humana no processo educativo.\n\n📄 REVOLUÇÃO+SILENCIOSA\n\n⚖️ IA no Judiciário Brasileiro\n\nNo âmbito jurídico, Vale (2025) analisou a adoção de sistemas como STJ Logos, Athos e Sinapses, que aplicam IA generativa para minutas de decisões e análise de precedentes. Os resultados são expressivos: o STJ Logos reduziu em 53% o tempo de elaboração de decisões, enquanto o Athos otimizou em 40% a formação de controvérsias jurídicas.\n\nApesar do ganho de eficiência, surgem riscos de viés algorítmico, falta de transparência e dificuldade de atribuir responsabilidades. Por isso, o Conselho Nacional de Justiça estabeleceu diretrizes éticas e de governança, reforçando que a IA deve auxiliar juízes, e não substituí-los.\n\n📄 tcc_Nikolas de Hor Ferreira Vale\n\n🔑 Conclusão\n\nA expansão da IA representa uma revolução silenciosa que atravessa ciência, educação e justiça.\n\n- Na pesquisa, acelera descobertas, mas exige critérios claros de autoria.\n- Na educação, amplia acesso e personalização, mas pede cautela com privacidade.\n- No judiciário, aumenta a eficiência, mas desafia princípios de transparência e equidade.\n\n➡️ O ponto comum? A tecnologia só cumpre seu potencial quando usada com responsabilidade ética, preservando o protagonismo humano na criação, ensino e julgamento.\n\n📚 Referências\n\nFIGUEIREDO, Francisco José Gonçalves; MARINHO, Davi Feitoza Pinto; HOLANDA, Guilherme Cavalcante; PINTO, Natália Bitu; LIRA, Rafaelle Cavalcante de; ASSIS, Elisangela Vilar de; NUNES, Marco Antônio Prado. Impacto da IA na Produtividade Científica: Uma Revisão Sistematizada. Revista Foco, v.18, n.1, p.01-21, 2025. DOI: 10.54751/revistafoco.v18n1-015. 📄 FOCO+-+015\n\nSOUZA JÚNIOR, Carlos Augusto Alves de; MARTINS, Camila da Silva. Revolução Silenciosa: Como a IA Está Reconfigurando o Aprendizado Online. Revista Colombiana de Ciências e Humanidades (REHCOL), v.2, n.4, set. 2025. DOI: 10.5281/zenodo.17103342. 📄 REVOLUÇÃO+SILENCIOSA\n\nVALE, Nikolas de Hor Ferreira. A Evolução dos Modelos de Linguagem no Judiciário Brasileiro: Sistemas de IA Generativa e o Futuro da Justiça Digital (2018–2025). Revista Contemporânea, v.5, n.6, 2025. DOI: 10.56083/RCV5N6-046. 📄 tcc_Nikolas de Hor Ferreira Vale"
+        }
+      ]
+    },
     {
-      "partOfSpeech": "Inteligência Artificial",
-      "definition": "Área da ciência da computação que desenvolve algoritmos e modelos capazes de simular processos de inteligência humana, como aprendizado, raciocínio, reconhecimento de padrões e processamento de linguagem natural.",
-      "source": "FIGUEIREDO et al. (2025); SOUZA JÚNIOR & MARTINS (2025); VALE (2025)",
-      "historia": "Inteligência Artificial e Transformações no Conhecimento\n\nA Inteligência Artificial (IA) deixou de ser apenas um conceito futurista e tornou-se protagonista em áreas como ciência, educação e justiça. O avanço de modelos de linguagem, algoritmos de machine learning e técnicas de processamento de linguagem natural (PLN) está remodelando a forma como produzimos conhecimento, aprendemos e aplicamos o direito no Brasil.\n\n🚀 IA na Produção Científica\n\nSegundo Figueiredo et al. (2025), a IA já ocupa espaço importante na escrita de artigos científicos, especialmente na medicina. Ferramentas como o ChatGPT auxiliam em tarefas como:\n\n- geração de rascunhos,\n- revisão gramatical,\n- tradução de textos e\n- análise de dados.\n\nNo entanto, os pesquisadores alertam para riscos como plágio, vieses nos algoritmos e referências falsas. Há também intenso debate ético: → seria legítimo atribuir coautoria a uma IA? Parte da comunidade defende a prática, mas outros apontam que apenas seres humanos podem assumir responsabilidade legal e intelectual pela pesquisa.\n\n📄 FOCO+-+015\n\n🎓 IA na Educação a Distância\n\nNo campo educacional, Souza Júnior e Martins (2025) mostram que a IA está revolucionando o ensino online. Os algoritmos permitem:\n\n- personalização do aprendizado conforme o ritmo de cada aluno,\n- feedback imediato por meio de tutores inteligentes,\n- inclusão de estudantes com necessidades especiais por meio de tecnologias assistivas.\n\nMas há desafios: a privacidade dos dados, o risco de dependência excessiva da tecnologia e a desigualdade de acesso em regiões com pouca infraestrutura digital. Assim, os autores defendem um equilíbrio entre inovação tecnológica e o papel insubstituível da interação humana no processo educativo.\n\n📄 REVOLUÇÃO+SILENCIOSA\n\n⚖️ IA no Judiciário Brasileiro\n\nNo âmbito jurídico, Vale (2025) analisou a adoção de sistemas como STJ Logos, Athos e Sinapses, que aplicam IA generativa para minutas de decisões e análise de precedentes. Os resultados são expressivos: o STJ Logos reduziu em 53% o tempo de elaboração de decisões, enquanto o Athos otimizou em 40% a formação de controvérsias jurídicas.\n\nApesar do ganho de eficiência, surgem riscos de viés algorítmico, falta de transparência e dificuldade de atribuir responsabilidades. Por isso, o Conselho Nacional de Justiça estabeleceu diretrizes éticas e de governança, reforçando que a IA deve auxiliar juízes, e não substituí-los.\n\n📄 tcc_Nikolas de Hor Ferreira Vale\n\n🔑 Conclusão\n\nA expansão da IA representa uma revolução silenciosa que atravessa ciência, educação e justiça.\n\n- Na pesquisa, acelera descobertas, mas exige critérios claros de autoria.\n- Na educação, amplia acesso e personalização, mas pede cautela com privacidade.\n- No judiciário, aumenta a eficiência, mas desafia princípios de transparência e equidade.\n\n➡️ O ponto comum? A tecnologia só cumpre seu potencial quando usada com responsabilidade ética, preservando o protagonismo humano na criação, ensino e julgamento.\n\n📚 Referências\n\nFIGUEIREDO, Francisco José Gonçalves; MARINHO, Davi Feitoza Pinto; HOLANDA, Guilherme Cavalcante; PINTO, Natália Bitu; LIRA, Rafaelle Cavalcante de; ASSIS, Elisangela Vilar de; NUNES, Marco Antônio Prado. Impacto da IA na Produtividade Científica: Uma Revisão Sistematizada. Revista Foco, v.18, n.1, p.01-21, 2025. DOI: 10.54751/revistafoco.v18n1-015. 📄 FOCO+-+015\n\nSOUZA JÚNIOR, Carlos Augusto Alves de; MARTINS, Camila da Silva. Revolução Silenciosa: Como a IA Está Reconfigurando o Aprendizado Online. Revista Colombiana de Ciências e Humanidades (REHCOL), v.2, n.4, set. 2025. DOI: 10.5281/zenodo.17103342. 📄 REVOLUÇÃO+SILENCIOSA\n\nVALE, Nikolas de Hor Ferreira. A Evolução dos Modelos de Linguagem no Judiciário Brasileiro: Sistemas de IA Generativa e o Futuro da Justiça Digital (2018–2025). Revista Contemporânea, v.5, n.6, 2025. DOI: 10.56083/RCV5N6-046. 📄 tcc_Nikolas de Hor Ferreira Vale"
-    }
-  ]
-},
-{
+      "word": "cibersegurança",
+      "category": "",
+      "meanings": [
+        {
+         "partOfSpeech": "",
+         "definition": "Conjunto de práticas, tecnologias e processos destinados a proteger sistemas, redes e dados contra acessos não autorizados, uso indevido, falhas ou ataques, garantindo a confidencialidade, integridade e disponibilidade da informação.",
+         "source": "https://books.google.com.br/books?id=5MCnEAAAQBAJ&lpg=PT148&ots=2gctlEBWeQ&dq=ciberseguran%C3%A7a&lr&hl=pt-BR&pg=PT148#v=onepage&q=ciberseguran%C3%A7a&f=false",
+         "historia": ""
+        }
+     ]
+    },
+    {
       "word": "Kanban",
       "category": "",
       "meanings": [
@@ -71,6 +83,30 @@
           "historia": "O que é\nO Kanban é um método japonês de controle e gestão que significa “cartão” ou “sinalização”. Trata-se de uma ferramenta simples e eficaz para controlar estoques e fluxos de produção, ajustando a oferta à demanda real do mercado (p. 5–6).\nPor que usar\nO Kanban proporciona maior controle de estoque, redução de desperdícios, melhor desempenho dos funcionários e aumento de lucratividade. Ele também se integra ao sistema Just-in-Time, favorecendo a produção no tempo certo e evitando excessos ou atrasos (p. 5–6).\nA história (de onde surgiu)\nO Kanban surgiu no Japão, inicialmente na Toyota, como resposta à crise econômica do pós-guerra. Criado na década de 1960, ele foi desenvolvido para reduzir custos e aumentar a produtividade por meio do controle rigoroso de estoques e produção. Taiichi Ohno, ex-vice-presidente da Toyota, foi um dos principais responsáveis por sua implementação, associando-o ao sistema Just-in-Time (p. 5–6).\nFontes\nSILVA, Jéssica Belem da. Método Kanban como Ferramenta de Controle de Gestão. Centro Universitário Doutor Leão Sampaio – UNILEÃO, 2018. (p. 5–6)"
         }
       ]
-    } 
+    },
+    {
+      "word": "PROFINET",
+      "category": "Protocolo de comunicação industrial",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "definition": "Rede industrial baseada em Ethernet (TCP/IP) que permite comunicação em tempo real entre dispositivos de automação, visando padronizar e otimizar a integração entre o chão de fábrica e os setores administrativos.",
+          "source": "TCC_GEA FelipeBrito MarciaCaroline WinyDaila - FINAL - ok.pdf",
+          "historia": "O PROFINET foi desenvolvido para superar as limitações de padrões anteriores como PROFIBUS e HART, oferecendo maior interoperabilidade, flexibilidade, escalabilidade e redução de custos. Ele é utilizado em diversas topologias (linha, árvore ou anel) e permite comunicação cíclica com taxa de 100Mbps, conforme normas IEEE802.3 e IEC61158/61784"
+        }
+      ]
+    },
+    {
+      "word": "CLPs",
+      "category": "",
+      "meanings": [
+        {
+          "partOfSpeech": "",
+          "definition": "Controladores Lógicos Programáveis que desempenham o papel de controlar máquinas e processos industriais, permitindo programação computacional, diagnóstico e comunicação com dispositivos de campo.",
+          "source": "TCC_GEA FelipeBrito MarciaCaroline WinyDaila - FINAL - ok.pdf",
+          "historia": "Introduzidos na década de 1970, os CLPs substituíram sistemas de controle baseados em relés e dispositivos com fio, revolucionando a automação industrial. No trabalho, é citado o uso do modelo Siemens S7-1200 (1214C DC/DC/DC), que possui entradas e saídas digitais e analógicas, além de conexão nativa com a rede PROFINET."
+        }
+      ]
+    }
   ]
 }
